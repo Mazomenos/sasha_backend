@@ -24,6 +24,6 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
-db.sequelize.sync({ force: true }).then(() => {
+/*db.sequelize.sync({ force: true }).then(() => {
     console.log("Drop and re-sync db.");
-   });
+   });*/
